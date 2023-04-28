@@ -6,6 +6,7 @@
   <meta name="description" content="Conserver la memoire de vos meilleurs moments"/>
   <title>Charles Cantin Photographe</title>
   <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="stylegallery.css">
 </head>
 <body>
@@ -36,229 +37,197 @@
     </ul>
   </header>
     <main>
-      <div id="myBtnContainer" class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="dropdown menu">
+        <i class="bi bi-funnel"></i>
+        <i class="bi bi-filter-left"></i>
+        <button class="btn btn-secondary dropdown-toggle" id="ddFilter" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Catégories de photos
         </button>
-        <ul class="dropdown-menu dropdown-menu-dark">
-          <li><button type="button" class="dropdown-item btn" onclick="filterSelection('mariage')">Mariage</button></li>
-          <li><button type="button" class="dropdown-item btn" onclick="filterSelection('pregnancy')"> Grossesse</button></li>
-          <li><button type="button" class="dropdown-item btn" onclick="filterSelection('baby')"> Bébé</button></li>
-          <li><button type="button" class="dropdown-item btn" onclick="filterSelection('family')"> Famille</button></li>
-          <li><button type="button" class="dropdown-item btn" onclick="filterSelection('baptism')"> Baptême</button></li>
-          <li><button type="button" class="dropdown-item btn" onclick="filterSelection('couple')"> Couple</button></li>
-          <li><button type="button" class="dropdown-item btn" onclick="filterSelection('portrait')"> Portrait</button></li>
+        
+        <ul id="myBtnContainer" class="dropdown-menu dropdown-menu-dark">
+            <li><button class="dropdown-item active" onclick="filterSelection('mariage')">Mariage</button></li>
+            <li><button class="dropdown-item" onclick="filterSelection('pregnancy')"> Grossesse</button></li>
+            <li><button class="dropdown-item" onclick="filterSelection('baby')"> Bébé</button></li>
+            <li><button class="dropdown-item" onclick="filterSelection('family')"> Famille</button></li>
+            <li><button class="dropdown-item" onclick="filterSelection('baptism')"> Baptême</button></li>
+            <li><button class="dropdown-item" onclick="filterSelection('couple')"> Couple</button></li>
+            <li><button class="dropdown-item" onclick="filterSelection('portrait')"> Portrait</button></li>
+        
         </ul>
       </div>
       <!-- Portfolio Gallery Grid -->
-      <div class="row">
-        <div class="col column mariage">
-          <div class="content">
+      <div class="row col-md-12">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume mariage">
             <img src="src/Mariage-2.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column mariage">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume mariage">
             <img src="src/Mariage-3.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column mariage">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume mariage">
             <img src="src/Mariage-4.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column mariage">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume mariage">
             <img src="src/Mariage-5.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column mariage">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume mariage">
             <img src="src/Mariage.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column pregnancy">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume pregnancy">
             <img src="src/Grossesse-2.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column pregnancy">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume pregnancy">
             <img src="src/Grossesse-3.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column pregnancy">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume pregnancy">
             <img src="src/Grossesse-4.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column pregnancy">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume pregnancy">
             <img src="src/Grossesse-5.jpg" alt="photo non disponible" width="400" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column pregnancy">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume pregnancy">
             <img src="src/Grossesse-6.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column pregnancy">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume pregnancy">
             <img src="src/Grossesse.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column baby">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baby">
             <img src="src/Bébé-2.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column baby">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baby">
             <img src="src/Bébé-3.jpg" alt="photo non disponible" width="400" height="300">
-          </div>
         </div>
-        <div class="col column baby">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baby">
             <img src="src/Bébé-4.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column baby">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baby">
             <img src="src/Bébé-5.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column baby">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baby">
             <img src="src/Bébé.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column family">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume family">
             <img src="src/Famille-2.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column family">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume family">
             <img src="src/Famille-3.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column family">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume family">
             <img src="src/Famille-4.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column family">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume family">
             <img src="src/Famille-5.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column family">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume family">
             <img src="src/Famille-6.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column family">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume family">
             <img src="src/Famille.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column baptism">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baptism">
             <img src="src/Baptême-2.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column baptism">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baptism">
             <img src="src/Baptême-3.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column baptism">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baptism">
             <img src="src/Baptême-4.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column baptism">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume baptism">
             <img src="src/Baptême.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column couple">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume couple">
             <img src="src/Couple-2.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column couple">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume couple">
             <img src="src/Couple-3.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column couple">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume couple">
             <img src="src/Couple-4.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column couple">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume couple">
             <img src="src/Couple-5.jpg" alt="photo non disponible" width="450" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column couple">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume couple">
             <img src="src/Couple.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column portrait">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume portrait">
             <img src="src/Portrait-2.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column portrait">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume portrait">
             <img src="src/Portrait-3.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col column portrait">
-          <div class="content">
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume portrait">
             <img src="src/Portrait-4.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
-        <div class="col column portrait">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume portrait">
             <img src="src/Portrait-5.jpg" alt="photo non disponible" width="420" height="300">
-          </div>
         </div>
-        <div class="col column portrait">
-          <div class="content">
+        <!-- <div class="col"> -->
+        <div class="col-md-4 show colume portrait">
             <img src="src/Portrait.jpg" alt="photo non disponible" width="300" height="420">
-          </div>
         </div>
       </div>
     </main>
 
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="gallery.js"></script>
+    <script src="index.js"></script>
 </body>
 <footer><div class="logo text-center"><img src="src/logo.JPG" alt="logo" width="200" height="200"></div></footer>
 </html>
