@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+body {
+  background-color: rgba(108, 106, 106, 0.558);
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(255, 255, 255, 0.83);
+  }
+  
+  /* visited link */
+a:visited {
+    color: rgb(134, 106, 143);
+  }
+
+.nav>li>a:hover {
+    color: rgb(79, 151, 160);
+  }
+
+.logo {
+    background-color: #47555e;
+  }
+
