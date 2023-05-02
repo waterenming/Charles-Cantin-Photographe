@@ -2,13 +2,13 @@
 
 header {
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 body {
   background-color: rgba(108, 106, 106, 0.558);
   font-family: 'Dancing Script', cursive;
-  font-size: 22px;
+  font-size: 15px;
   color: rgb(255, 255, 255);
 }
 
@@ -27,58 +27,234 @@ a:visited {
   }
 
 .icons {
-    margin-right: 10px;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 .photos {
-  margin-top: 120px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.photovert {
+  width: 320px;
+  height: 200px;
+}
+
+.photohori {
+  width: 200px;
+  height: 320px;
 }
 
 .description {
-  margin-top: 300px;
+  margin-top: 200px;
   text-align: left;
 }
 
 .description2 {
-  margin-top: 210px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.description3 {
   text-align: left;
 }
 
 .contactform {
   background-color: rgba(0, 0, 0, 0.556);
   border-radius: 30px;
-  width: 800px;
-  margin-left: 450px;
-  margin-top: 100px;
+  width: 300px;
+  margin-left: 45px;
+  margin-top: 50px;
   padding-top: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .button {
-  margin-left: 350px;
-  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-bottom: 30px;
   width: 100px;
 }
 
 label {
-  margin-left: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 input[type=name] {
-  width: 700px;
+  width: 250px;
 }
 
 input[type=email] {
-  width: 700px;
+  width: 250px;
 }
 
 textarea {
-  width: 700px;
+  width: 250px;
 }
 
 .logo {
   background-color: #47555e;
+}
+
+@media screen and (min-width: 768px) {
+  .icons {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  body {
+    font-size: 22px;
+  }
+
+  header {
+    font-size: 30px;
+  }
+
+  .photovert {
+    width: 420px;
+    height: 300px;
+  }
+
+  .photohori {
+    width: 300px;
+    height: 420px;
+  }
+
+  .description {
+    margin-top: 300px;
+    text-align: left;
+  }
+  
+  .description2 {
+    margin-top: 210px;
+    text-align: left;
+  }
+
+  .description3 {
+    margin-top: 210px;
+    text-align: left;
+  }
+
+  .photos {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+
+  .contactform {
+    background-color: rgba(0, 0, 0, 0.556);
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 120px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+  }
+
+  .button {
+    margin-left: 250px;
+    margin-bottom: 50px;
+    width: 100px;
+  }
+  
+  label {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  input[type=name] {
+    width: 520px;
+  }
+  
+  input[type=email] {
+    width: 520px;
+  }
+  
+  textarea {
+    width: 520px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .icons {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  body {
+    font-size: 22px;
+  }
+
+  header {
+    font-size: 30px;
+  }
+
+  .photovert {
+    width: 420px;
+    height: 300px;
+  }
+
+  .photohori {
+    width: 300px;
+    height: 420px;
+  }
+
+  .description {
+    margin-top: 300px;
+    text-align: left;
+  }
+  
+  .description2 {
+    margin-top: 210px;
+    text-align: left;
+  }
+
+  .description3 {
+    margin-top: 210px;
+    text-align: left;
+  }
+
+  .photos {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+
+  .contactform {
+    background-color: rgba(0, 0, 0, 0.556);
+    border-radius: 30px;
+    width: 800px;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding-top: 20px;
+    margin-bottom: 200px;
+  }
+
+  .button {
+    margin-left: 350px;
+    margin-bottom: 50px;
+    width: 100px;
+  }
+  
+  label {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  input[type=name] {
+    width: 700px;
+  }
+  
+  input[type=email] {
+    width: 700px;
+  }
+  
+  textarea {
+    width: 700px;
+  }
 }

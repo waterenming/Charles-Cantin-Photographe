@@ -2,7 +2,7 @@
 
 header {
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 body {
@@ -31,18 +31,35 @@ a:visited {
   }
 
 div>img {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
     border-radius: 20px;
 }
 
+.photovert {
+  width: 320px;
+  height: 200px;
+}
+
+.photohori {
+  width: 200px;
+  height: 320px;
+}
+
+.photospec {
+  width: 280px;
+  height: 200px;
+}
+
 .icons {
-    margin-right: 10px;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 .menu {
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 
@@ -50,5 +67,84 @@ div>img {
     display: none;
 }
 .row .colume.show {
-        display: block;
-    }
+    display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+  .icons {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  header {
+    font-size: 30px;
+  }
+
+  div>img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+  }
+
+  .photovert {
+    width: 320px;
+    height: 200px;
+  }
+
+  .photohori {
+    width: 200px;
+    height: 320px;
+  }
+
+  .photospec {
+    width: 300px;
+    height: 200px;
+  }
+
+  .menu {
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .icons {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  header {
+    font-size: 30px;
+  }
+
+  div>img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+  }
+
+  .photovert {
+    width: 420px;
+    height: 300px;
+  }
+
+  .photohori {
+    width: 300px;
+    height: 420px;
+  }
+
+  .photospec {
+    width: 400px;
+    height: 300px;
+  }
+
+  .menu {
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+}
